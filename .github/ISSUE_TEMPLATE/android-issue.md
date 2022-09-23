@@ -1,67 +1,23 @@
 ---
-name: Bug reports
-about: Report problems related to our project
-title: Brief description of your problem
+name: SIM Not Detected
+title: Certain Company sims are not visible in the Operating System!
 ---
 
-<!-- INSTRUCTIONS
-What not to report
-- Bugs in unofficial builds or anything not downloaded from our official portal
-- Missing Builds
-- Problems with the website
-- Asking for device support
-- Feature requests
-
-Make sure not to use extra mods when reporting a problem (for example: Magisk)
-
-If you need help please check our Telegram group at https://t.me/pixelexperiencechat
-
-Anything between <!- - and - -> won't be shown when your issue is created. 
-
-!!!
-PLEASE DON'T REMOVE BACKTICKS (`), OTHERWISE YOUR ISSUE WILL BE CLOSED AUTOMATICALLY
-!!!
--->
-
 ## Build date
-<!--- Anything that can help us identify the build you are using -->
-```
-Example: PixelExperience_raphael-10.0-20201218-0409-OFFICIAL
-```
+PixelExperience_begonia-13.0-BETA-20220914-0214-OFFICIAL
 
 ## Expected Behavior
-<!--- Tell us what should happen -->
-```
-Edit here
-```
+Every sim should be functioning well.
 
 ## Current Behavior
-<!--- Tell us what happens instead of the expected behavior -->
-```
-Edit here
-```
+The sims which only uses VOLTE is not visible
 
-## Possible Solution
-<!--- Not obligatory, but suggest a fix/reason for the bug, -->
-```
-Edit here
-```
+No sim detected when I use my alternate number (Jio Mobility). The OS detects each and every other sim but not Jio. Please help me find the solution.
 
-## Steps to Reproduce
-<!--- Provide a link to a live example, or an unambiguous set of steps to -->
-<!--- reproduce this bug. Include code to reproduce, if relevant -->
-```
-1.
-2.
-3.
-4.
-```
+I've used clean flash, with Adb sideload for pixel 13 beta.
 
-<!-- THIS SECTION IS MANDATORY. If it is not filled out correctly, your issue will be marked as invalid.
-Example:
-/device polaris (found at https://wiki.pixelexperience.org/devices/)
-/version eleven or eleven_plus (for plus version)
--->
 
-/device
-/version
+
+
+/device: Redmi Note 8 Pro (begonia)
+/version Android 13 Beta (2022/09/14)
